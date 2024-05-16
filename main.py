@@ -27,7 +27,6 @@ def main():
 
         
         thumbnail = generate_thumbnail(image, thumbnail_size)
-        
         st.image(thumbnail, caption="Preview Thumbnail")
         add_vertical_space(1)
 
@@ -41,7 +40,7 @@ def main():
         image_stream.seek(0)
         data = image_stream.getvalue()
         add_vertical_space(1)
-        
+
         st.download_button(
             label="Download Thumbnail",
             data=data,
