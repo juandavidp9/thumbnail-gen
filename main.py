@@ -30,7 +30,7 @@ def main():
         st.image(thumbnail, caption="Preview Thumbnail")
         add_vertical_space(1)
 
-        output_format = st.selectbox("Choose Output Format", ("PNG", "JPG"))
+        output_format = st.selectbox("Choose Image Format", ("PNG", "JPG"))
         file_name = st.text_input("Enter file name", value="thumbnail")
         image_stream = io.BytesIO()
         if output_format.lower() == "png":
