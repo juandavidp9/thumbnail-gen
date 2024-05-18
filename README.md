@@ -3,7 +3,7 @@
 This app allows you to generate thumbnails of images with custom sizes.
 It provides an intuitive interface for uploading images, adjusting thumbnail dimensions, and downloading the result.
 
-Features
+## Features
 -Upload images in JPG, PNG, and JPEG formats.
 -Customize thumbnail width and height using sliders.
 -Select the output format for the thumbnail (PNG or JPG).
