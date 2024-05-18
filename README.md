@@ -1,6 +1,6 @@
 # Thumbnail Generator App
 
-Thumbnail Generator is a web application that allows you to generate thumbnails of images with custom sizes.
+This app allows you to generate thumbnails of images with custom sizes.
 It provides an intuitive interface for uploading images, adjusting thumbnail dimensions, and downloading the result.
 
 Features
