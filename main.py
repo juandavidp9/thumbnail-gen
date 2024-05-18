@@ -19,13 +19,12 @@ def main():
         original_width, original_height = image.size
         st.write(f"Original Size: {original_width} x {original_height} pixels")
         add_vertical_space(1)
+        st.image(image, caption="Original Image")
         thumbnail_width = st.slider("Thumbnail Width", 10, original_width, 100)
         thumbnail_height = st.slider("Thumbnail Height", 10, original_height, 80)
         thumbnail_size = (thumbnail_width, thumbnail_height)
 
-        st.image(image, caption="Original Image")
-
-        
+               
         thumbnail = generate_thumbnail(image, thumbnail_size)
         st.image(thumbnail, caption="Preview Thumbnail")
         add_vertical_space(1)
