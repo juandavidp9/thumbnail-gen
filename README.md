@@ -4,11 +4,11 @@ This app allows you to generate thumbnails of images with custom sizes.
 It provides an intuitive interface for uploading images, adjusting thumbnail dimensions, and downloading the result.
 
 ## Features
-●  Upload images in JPG, PNG, and JPEG formats.  
-●  Customize thumbnail width and height using sliders.  
-●  Select the output format for the thumbnail (PNG or JPG).  
-●  Preview the original image and the generated thumbnail.  
-●  Download the thumbnail with a custom file name.  
+●   Upload images in JPG, PNG, and JPEG formats.  
+●   Customize thumbnail width and height using sliders.  
+●   Select the output format for the thumbnail (PNG or JPG).  
+●   Preview the original image and the generated thumbnail.  
+●   Download the thumbnail with a custom file name.  
 
 Built with Streamlit https://docs.streamlit.io/
 
